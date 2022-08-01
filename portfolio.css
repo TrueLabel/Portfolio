@@ -1,16 +1,26 @@
 h1 {
-  font-family: 'Anton', arial;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Permanent Marker', cursive;
+
 }
 
 h3 {
   font-size: 28px;
+  display: inline-block;
+  padding-left: 30px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 body {
   text-align: center;
-  font-family: 'Teko',sans-serif;
+  font-family: sans-serif;
   margin: 0px;
-  background-color: rgb(117, 250, 175, .5);
+  /* background-color: rgb(112, 128, 144, .7); */
+  background-color: rgb(0, 0, 0, .8);
 }
 
 nav {
@@ -20,23 +30,26 @@ nav {
 }
 
 p {
-  font-size: 24px;
+  font-size: 22px;
+  font-family: 'Cormorant SC', serif;
 }
 
 li {
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   padding: 1px;
+  font-family: 'Cormorant SC', serif;
 }
 
 .areaAvoid {
   border-radius: 45px;
   padding: 0px 5px 0px 5px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.60);
   border: 5px black solid;
   height: 20px;
   overflow: hidden;
   color: white;
+
 
 }
 
@@ -53,7 +66,8 @@ li {
   width: 45%;
   float: left;
   height: 600px;
-  overflow: hidden;
+  overflow-x:  hidden;
+  overflow-y: auto;
 
 
 
@@ -64,11 +78,13 @@ li {
   border: 5px black solid;
   float: right;
   width: 44%;
-  height: 350px;
+  height: 400px;
   margin-bottom: 15px;
   margin-left: 10px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
+  overflow-x:  hidden;
+  overflow-y: auto;
 
 }
 
@@ -79,6 +95,7 @@ li {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   clear: right;
+  border-left: none;
 }
 
 #right3 {
@@ -90,38 +107,111 @@ li {
 
 #linkedin {
   float: right;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .links {
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .hamburger {
   display: inline;
   position: fixed;
-  top: 15px;
+  top: 45px;
   left: 10px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.95);
   text-align: center;
   width: 80px;
-  border: 2px black solid;
+  border: 2px white solid;
+  height: auto;
+  width: 25%;
+  border-radius: 45px;
+
+
 
 }
 
 #hamburgerButton {
   display: inline;
   position: fixed;
-  top: 10px;
+  top: 15px;
   left: 10px;
 }
 
 #hamburgerButton {
-  background: url('https://banner2.cleanpng.com/20180628/zaz/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724be5a1f0.5796308115301637879406.jpg');
+  background-color: rgba(0, 0, 0, 0.95);
+  border: 3px white solid;
+  color: white;
+  padding: 10px;
+  left: 35px;
+  border-radius: 45px;
 
 }
 
 .ref {
   float: left;
   clear: left;
+}
+
+.hamLink {
+  color: white;
+  margin: 25px;
+  margin-bottom: 25px;
+  padding-right: 20%;
+  padding-top: 30px;
+  font-size: 18px;
+  padding-left: 0px;
+
+}
+
+#arrow {
+  width: 10%;
+}
+
+#me {
+  border-radius: 90px;
+  width: 220px;
+  border: 3px white solid;
+}
+
+#gameText {
+  height: 80px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#left2 {
+  left: 0px;
+  border-radius: 45px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 5px black solid;
+  width: 45%;
+  float: left;
+  height: 300px;
+  overflow-x:  hidden;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#project1 {
+  text-align: left;
+
 }
