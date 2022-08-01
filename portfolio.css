@@ -37,7 +37,7 @@ p {
 li {
   font-size: 18px;
   text-align: left;
-  padding: 1px;
+  padding: 5px;
   font-family: 'Cormorant SC', serif;
 }
 
@@ -100,14 +100,15 @@ li {
 
 #right3 {
   height: 80px;
-  margin-left: 53%;
+  width: 55%;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
+  float: right;
 }
 
 #linkedin {
-  float: right;
-  margin-right: 10px;
+  margin-left: 70%;
+  clear: right;
 }
 
 .links {
@@ -202,16 +203,68 @@ a:hover {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border: 5px black solid;
-  width: 45%;
-  float: left;
+  width: 46%;
+  clear: left;
   height: 300px;
   overflow-x:  hidden;
   overflow-y: auto;
-  margin-top: 10px;
+  margin: 0px;
   padding: 5px;
+
 }
 
 #project1 {
   text-align: left;
+  float: left;
+  margin-left: 10px;
+
+}
+
+#right4 {
+  height: 250px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  clear: right;
+  width: 90%;
+  float: right;
+  margin-top: 10px;
+}
+
+#right5 {
+  height: 250px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 46%;
+  float: right;
+  margin: 0px;
+  margin-top: 10px;
+  right: 0px;
+  clear: right;
+
+}
+
+#project2 {
+
+  float: inherit;
+  transform: rotate(-90deg);
+  height: 7%;
+
+}
+
+#project3 {
+
+  clear: both;
+
+}
+
+#project4 {
+
+  clear: both;
+
+}
+
+#project5 {
+
+  clear: both;
 
 }
