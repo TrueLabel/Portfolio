@@ -1,11 +1,11 @@
 h1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 50px;
+  color: white;
 }
 
 h2 {
   font-family: 'Permanent Marker', cursive;
-
 }
 
 h3 {
@@ -15,12 +15,24 @@ h3 {
   font-family: 'Permanent Marker', cursive;
 }
 
+header {
+  background-color: rgba(0, 0, 0, 0.868);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 100px;
+  box-shadow: 0px 0px 15px 5px;
+}
+
+#spacer {
+  height: 100px;
+}
+
 body {
   text-align: center;
   font-family: sans-serif;
   margin: 0px;
-  /* background-color: rgb(112, 128, 144, .7); */
-  background-color: rgb(0, 0, 0, .8);
+  background-color: rgba(248, 244, 244, 0.8);
 }
 
 nav {
@@ -41,76 +53,6 @@ li {
   font-family: 'Cormorant SC', serif;
 }
 
-.areaAvoid {
-  border-radius: 45px;
-  padding: 0px 5px 0px 5px;
-  background-color: rgba(0, 0, 0, 0.60);
-  border: 5px black solid;
-  height: 20px;
-  overflow: hidden;
-  color: white;
-
-
-}
-
-.areaAvoid:hover {
-  background-color: red;
-}
-
-#landingLeft {
-  left: 0px;
-  border-radius: 45px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border: 5px black solid;
-  width: 45%;
-  float: left;
-  height: 600px;
-  overflow-x:  hidden;
-  overflow-y: auto;
-
-
-
-}
-
-#landingRight {
-  border-radius: 45px;
-  border: 5px black solid;
-  float: right;
-  width: 44%;
-  height: 400px;
-  margin-bottom: 15px;
-  margin-left: 10px;
-  border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  overflow-x:  hidden;
-  overflow-y: auto;
-
-}
-
-#right2 {
-  height: 50px;
-  margin-right: 15px;
-  margin-top: 10px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  clear: right;
-  border-left: none;
-}
-
-#right3 {
-  height: 80px;
-  width: 55%;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  float: right;
-}
-
-#linkedin {
-  margin-left: 70%;
-  clear: right;
-}
-
 .links {
   padding: 10px;
   margin-bottom: 10px;
@@ -128,9 +70,6 @@ li {
   height: auto;
   width: 25%;
   border-radius: 45px;
-
-
-
 }
 
 #hamburgerButton {
@@ -163,21 +102,12 @@ li {
   padding-top: 30px;
   font-size: 18px;
   padding-left: 0px;
-
-}
-
-#arrow {
-  width: 10%;
 }
 
 #me {
   border-radius: 90px;
   width: 220px;
-  border: 3px white solid;
-}
-
-#gameText {
-  height: 80px;
+  border: 5px rgb(0, 0, 0) solid;
 }
 
 a:link {
@@ -187,84 +117,13 @@ a:link {
 }
 
 a:visited {
-  color: white;
+  color: rgb(96, 0, 186);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+  color: rgb(0, 13, 191);
   background-color: transparent;
   text-decoration: underline;
-}
-#left2 {
-  left: 0px;
-  border-radius: 45px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border: 5px black solid;
-  width: 46%;
-  clear: left;
-  height: 300px;
-  overflow-x:  hidden;
-  overflow-y: auto;
-  margin: 0px;
-  padding: 5px;
-
-}
-
-#project1 {
-  text-align: left;
-  float: left;
-  margin-left: 10px;
-
-}
-
-#right4 {
-  height: 250px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  clear: right;
-  width: 90%;
-  float: right;
-  margin-top: 10px;
-}
-
-#right5 {
-  height: 250px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  width: 46%;
-  float: right;
-  margin: 0px;
-  margin-top: 10px;
-  right: 0px;
-  clear: right;
-
-}
-
-#project2 {
-
-  float: inherit;
-  transform: rotate(-90deg);
-  height: 7%;
-
-}
-
-#project3 {
-
-  clear: both;
-
-}
-
-#project4 {
-
-  clear: both;
-
-}
-
-#project5 {
-
-  clear: both;
-
 }
