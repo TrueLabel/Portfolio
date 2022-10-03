@@ -3,11 +3,12 @@
   justify-content: space-between;
   width: 80%;
   margin:auto;
+  flex-wrap:wrap;
 }
 
 .skillimg {
   height: 60px;
-  
+  padding: 1.5em;
 }
 
 
@@ -156,7 +157,7 @@ li {
 
 .projectimg {
   border-radius: 90px;
-  width: 60em;
+  width: 60%;
   border: 5px rgb(0, 0, 0) solid;
 }
 
@@ -183,4 +184,16 @@ a:hover {
 #Exp {
   margin:auto;
   width: 60%;
+}
+
+#skillscon {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin:auto;
+}
+
+.skillimg {
+  height: 60px;
+  padding: 1.5em;
 }
